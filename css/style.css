@@ -8,7 +8,7 @@
 
 body {
     background-image: url(/img/wallpaper4.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-attachment: fixed;
     background-position: none;
     background-size: 100%;
@@ -135,4 +135,13 @@ footer div p {
 
 .info {
     float: right;
+}
+
+
+/* Media Quereys */
+
+@media (max-width: 768px) {
+    main {
+        margin: 0px 18%;
+  }
 }
