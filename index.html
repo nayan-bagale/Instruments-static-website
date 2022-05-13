@@ -26,6 +26,29 @@
     <main>
 
         <div class="block">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="/img/Flute.webp">
+                  <div class="text">Caption Text</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="/img/Piano.jpg">
+                  <div class="text">Caption Two</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="/img/Violin.webp">
+                  <div class="text">Caption Three</div>
+                </div>
+                
+                </div>
+        </div>
+
+        <div class="block">
         <h2>Piano</h2>
         <img src="./img/Piano.jpg" alt="Piano">
         <p>Some experts separate the two, and they do have different uses, but the basics are very similar. Some instructors believe that learning to play piano should be a prerequisite for learning any other instrument. “Despite being a single instrument, a piano covers the full spectrum of any instrument featured in the orchestra,” according to the La Habra and Corona Music Centers. It teaches coordination between hands and between the hand and the eye.</p>
@@ -49,5 +72,22 @@
         </div>
     </footer>
     
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          slides[slideIndex-1].style.display = "block";  
+          setTimeout(showSlides, 3000); // Change image every 2 seconds
+        }
+        </script>
+
 </body>
 </html>

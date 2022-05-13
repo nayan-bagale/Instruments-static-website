@@ -137,7 +137,6 @@ footer div p {
     float: right;
 }
 
-
 /* Media Quereys */
 
 @media (max-width: 768px) {
@@ -145,3 +144,31 @@ footer div p {
         margin: 0px 18%;
   }
 }
+
+main div .slideshow-container img {
+    -moz-box-shadow: inset 0 0 25px #000000;
+    -webkit-box-shadow: inset 0 0 25px #000000;
+    box-shadow: inset 0 0 25px #000000 ;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 16px;
+    padding: 8px 12px;
+    position: absolute;
+}
+
+.text {
+    text-align: center;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
