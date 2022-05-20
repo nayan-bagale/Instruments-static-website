@@ -60,6 +60,11 @@ nav .active{
 }
 
 
+main a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
 /* ---------Footer section--------- */
 
 footer {

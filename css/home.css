@@ -19,7 +19,7 @@ main {
 .grid-item {
     /* background-color: rgba(92, 46, 46, 0.8); */
     text-align: center;
-    border-radius: 50px;
+    /* border-radius: 50px; */
     max-width: 400px;
     height: 300px;
     margin: 10px 0px 20px;
@@ -30,7 +30,7 @@ main {
 .grid-item img {
     max-width: 400px;
     height: 300px;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 
 .grid-item img:hover {
