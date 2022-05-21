@@ -3,7 +3,7 @@
 } */
 
 main {
-    margin: 0px 60px;
+    margin: 0px 5%;
     padding: 9.4em 0px 40px;
     background-color: rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 20px 5px #3a313f;
@@ -21,18 +21,19 @@ main {
     /* background-color: rgba(92, 46, 46, 0.8); */
     text-align: center;
     /* border-radius: 50px; */
-    max-width: 400px;
-    height: 300px;
     margin: 10px 0px 20px;
     color: aliceblue;
     font-size: 20px;
   }
 
 .grid-item img {
-    max-width: 400px;
-    height: 300px;
     border-radius: 30px;
     box-shadow: 0px 0px 20px 5px #3a313f;
+}
+
+.grid-item, .grid-item img {
+  max-width: 400px;
+  height: 300px;
 }
 
 .grid-item img:hover {
@@ -56,3 +57,8 @@ main {
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: auto !important;
+  }
+}
