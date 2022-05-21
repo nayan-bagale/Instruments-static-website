@@ -2,8 +2,9 @@
 
 main {
     margin: 0px 25%;
-    padding: 8em 30px;
+    padding: 8.8em 30px;
     background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px 5px #3a313f;
     /* box-shadow: 0px 0px 60px 10px #eee5e5;  */
 
 }

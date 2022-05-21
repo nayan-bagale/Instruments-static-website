@@ -6,6 +6,7 @@ main {
     margin: 0px 60px;
     padding: 9.4em 0px 40px;
     background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 20px 5px #3a313f;
 }
 
 .grid-container {
@@ -31,6 +32,7 @@ main {
     max-width: 400px;
     height: 300px;
     border-radius: 30px;
+    box-shadow: 0px 0px 20px 5px #3a313f;
 }
 
 .grid-item img:hover {
