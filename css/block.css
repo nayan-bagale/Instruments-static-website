@@ -46,6 +46,10 @@ main div p {
     text-align: justify;
 }
 
+.more{
+    display: hidden !important;
+}
+
 .sub-grid-container{
     display: grid;
     grid-template-columns: 50% 50%;
