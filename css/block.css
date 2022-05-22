@@ -46,8 +46,8 @@ main div p {
     text-align: justify;
 }
 
-.more{
-    display: hidden !important;
+#more{
+    display: none;
 }
 
 .sub-grid-container{
