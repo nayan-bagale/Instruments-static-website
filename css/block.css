@@ -20,7 +20,6 @@ main h1 {
     text-align: center;
     font-style: normal;
     font-weight: 400;
-    /* border-bottom: 2px solid; */
 }
 
 main div h2{
@@ -51,7 +50,7 @@ main div p {
     display: grid;
     grid-template-columns: 50% 50%;
     border-radius: 30px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(155, 127, 127, 0.2);
     margin-bottom: 2%;
     align-content: center;
 }
