@@ -50,7 +50,7 @@ main div p {
     text-align: justify;
 }
 
-#more{
+.more{
     display: none;
 }
 
