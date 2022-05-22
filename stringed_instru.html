@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
@@ -31,10 +32,22 @@
             <h2>Guitar</h2>
             <img src="./img/Guitar.webp" alt="Guitar">
             <p>This guitar produces sound through the vibration of strings. The sound is produced by plucking with the fingers or with a pick on the string. The string vibrates at a certain frequency and also creates many harmonics. It is one of the famous musical instruments. These guitars are one of the major elements of today’s music. So if you are into playing guitars, the music industry is waiting for you with open arms.</p>
-            <h2>Audio Clip</h2>
-            <audio controls>
-                <source src="#" type="audio/mp3">
-            </audio>
+            <div class="sub-grid-container">
+                <div class="sub-grid-item audio">
+                    <h2>Audio Clip</h2>
+                    <img src="./img/icon/musical-note.png" alt="music-icon" class="music-icon">
+                    <audio controls>
+                        <source src="./audio/guitar.mpeg" type="audio/mp3">
+                    </audio>
+                </div>
+                <div class="sub-grid-item video">
+                    <h2>video Clip</h2>
+                    <video controls>
+                        <source src="./video/guitar.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <hr>
         </div> 
 
         <div class="block" id="violin">

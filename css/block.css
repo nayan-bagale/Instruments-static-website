@@ -1,7 +1,7 @@
 /* ---------Main section--------- */
 
 main {
-    margin: 0px 25%;
+    margin: 0px 15%;
     padding: 8.8em 30px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 20px 5px #3a313f;
@@ -11,6 +11,7 @@ main {
 
 .block {
     margin-bottom: 40px;
+    text-align: center;
 
 }
 
@@ -19,6 +20,7 @@ main h1 {
     text-align: center;
     font-style: normal;
     font-weight: 400;
+    /* border-bottom: 2px solid; */
 }
 
 main div h2{
@@ -29,9 +31,12 @@ main div h2{
 }
 
 main div img {
-    max-width: 100%;
+    align-content: center;
+    max-width: 70%;
     height: auto;
     padding: 5px 0px;
+    border-radius: 30px;
+    
 }
 
 main div p {
@@ -39,4 +44,47 @@ main div p {
     font-weight: 400;
     margin-bottom: 20px;
     color: #646569;
+    text-align: justify;
 }
+
+.sub-grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 2%;
+    align-content: center;
+}
+
+.sub-grid-item{
+    margin: 0px 50px 0px;
+}
+
+.music-icon {
+    max-width: 35%;
+    align-content: center;
+
+}
+
+video {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    margin-bottom: 18px;
+}
+
+hr {
+    border-top: 2px solid;
+}
+
+
+@media (max-width: 768px) {
+    .sub-grid-container{
+        grid-template-columns: auto;
+    }
+    main {
+        margin: 0px 20px;
+    }
+
+}
+

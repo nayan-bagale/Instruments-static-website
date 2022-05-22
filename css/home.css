@@ -34,7 +34,7 @@ main {
 
 .grid-item, .grid-item img {
   max-width: 400px;
-  height: 300px;
+  height: 280px;
 }
 
 .grid-item img:hover {
@@ -60,6 +60,7 @@ main {
 
 @media (max-width: 768px) {
   .grid-container {
-    grid-template-columns: auto !important;
+    grid-template-columns: auto;
   }
 }
+
