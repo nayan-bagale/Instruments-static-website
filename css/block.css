@@ -9,21 +9,25 @@ main {
 
 }
 
-.block {
-    margin-bottom: 40px;
-    text-align: center;
-
-}
-
 main h1 {
+    color: rgb(59, 71, 74);
     font-size: 35px;
     text-align: center;
     font-style: normal;
     font-weight: 400;
+    margin-bottom: 20px;
+    text-decoration: underline;
 }
 
+.block {
+    text-align: center;
+    margin: 0px 50px 40px;
+
+}
+
+
 main div h2{
-    color: #000;
+    color: rgb(43, 51, 55);
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
@@ -39,15 +43,27 @@ main div img {
 }
 
 main div p {
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 10px 0px 30px;
     color: #646569;
     text-align: justify;
 }
 
 #more{
     display: none;
+}
+
+#myBtn{
+    background: none;
+    border: none;
+    font-size: 1em;
+    color: #322ea4e2;
+}
+
+#myBtn:hover{
+    color: #000;
+    cursor: pointer;
 }
 
 .sub-grid-container{
