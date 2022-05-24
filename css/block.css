@@ -93,6 +93,11 @@ video {
     border-radius: 30px;
 }
 
+.reel{
+    width: 100%;
+    height: 240px;
+}
+
 hr {
     border-top: 2px solid;
 }
